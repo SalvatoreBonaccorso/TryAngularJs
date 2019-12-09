@@ -5,13 +5,13 @@ angular.module('blogList')
         templateUrl: '/src/templates/blog-list.html',
         controller: function ($scope) {
 
-            var blogItems = [
+       /*      var blogItems = [
                 {title},
                 {},
                 {},
                 {},
                 {}
-            ]
+            ]; */
             $scope.title = 'Hi there!';
             $scope.clicks = 0;
 
